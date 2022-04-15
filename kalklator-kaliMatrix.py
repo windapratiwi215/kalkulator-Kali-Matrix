@@ -11,6 +11,7 @@ Created on Tue Mar  1 20:57:44 2022
 
 @author: Rosalina Winda Pratiwi
 """
+########### KALKULATOR INI BELUM BISA MELAKUKAN PERHITUNGAN#############
 from tkinter import Tk, Label, IntVar, Button, Entry
 window = Tk()
 window.title("Perkalian 2 Buah Matrik")
@@ -88,7 +89,8 @@ def bentuk_matrix():
          bg='#0059b3').place(x=20, y=210)
        Label(window1, text=temp_mat, font=('arial', 10, 'bold'), 
          bg='white').place(x=20, y=240)
-         
+
+
    def col_matriks(matriks):
        return len(matriks[0])
     
